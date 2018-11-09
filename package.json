@@ -1,7 +1,7 @@
 {
   "name": "kanocchi-gate",
   "version": "0.0.1",
-  "description": "A Kano-chan Gate and Websocket interface, for Kano-chan Discordbot",
+  "description": "A Multipurpose Kano-chan Gate and Websocket interface, mainly for Kano-chan Discordbot",
   "main": "app.js",
   "scripts": {
     "test": "node test.js",
