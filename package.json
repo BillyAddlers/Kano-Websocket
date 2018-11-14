@@ -22,7 +22,11 @@
     "Discord",
     "Bot"
   ],
-  "author": "Riichi_Rusdiana#6815",
+  "author": [
+  "Riichi_Rusdiana#6815",
+  "OwO#8287",
+  "Sharif#9781"
+  ],
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
