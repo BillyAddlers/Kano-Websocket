@@ -5,6 +5,7 @@ const {
     getRows, 
     connection,
     readEngine,
+    getHeader,
 } = require('./index');
 const { join } = require('path');
 
@@ -26,7 +27,8 @@ class WebSocket {
 
     registerRoots() {
         this.app.get('/', (req, res) => {
-            res.render('index', { title: 'Kano-chan Gate' })
+            let header = getHeader();
+            res.render('index', { title: 'Kano-chan Gate', header: header })
 		})
     }
 }
