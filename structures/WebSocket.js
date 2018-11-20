@@ -6,6 +6,7 @@ const {
     connection,
     readEngine,
     getHeader,
+    config
 } = require('./index');
 const { join } = require('path');
 
@@ -13,6 +14,7 @@ class WebSocket {
     constructor(port) {
 		this.connection = connection;
 		this.rows = getRows;
+		this.extConfig = config;
         this.app = express()
         this.app.set('views', join(__dirname, './../views'))
         this.app.set('view engine', 'hbs')
